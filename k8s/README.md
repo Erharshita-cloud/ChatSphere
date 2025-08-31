@@ -56,8 +56,8 @@ kubectl apply -f chatapp-ingress.yml
 
 🌍 Accessing the Application
 
-If using NodePort/LoadBalancer, get the service IP:
-kubectl get svc -n chat-app
+   If using NodePort/LoadBalancer, get the service IP:
+   kubectl get svc -n chat-app
 
 Copy the external IP/Port and open in your browser.
 
@@ -70,10 +70,15 @@ http://chatapp.local
 🎯 Features
 
 ✅ Fullstack ChatApp (Frontend + Backend + MongoDB)
+
 ✅ Kubernetes Deployments, Services, Secrets, PV, PVC, Ingress
+
 ✅ Persistent storage for MongoDB
+
 ✅ Custom domain support with Ingress
+
 ✅ Scalable & cloud-ready architecture
+
 🖼️ Project Architecture
 [ Client ] ⇄ [ Ingress Controller ] ⇄ [ Frontend Service ] ⇄ [ Backend Service ] ⇄ [ MongoDB Service (with PV/PVC) ]
 ----
@@ -82,9 +87,13 @@ http://chatapp.local
 📖 Learnings
 
 1: How to deploy multi-tier applications on Kubernetes
+
 2: Using Secrets for sensitive data
+
 3: Setting up Persistent Volumes & PVCs for databases
+
 4: Configuring Ingress for custom domain access
+
 5: Scaling and managing microservices in Kubernetes
 ----
 
