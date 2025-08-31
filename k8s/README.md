@@ -17,18 +17,18 @@ k8s/
 ├── secrets.yml                # Secrets (e.g., DB credentials)
 
 
+----
 ⚡ Prerequisites
 
 Before deploying, ensure you have:
 
 🐳 Docker (for building images)
-
 ☸️ Kubernetes Cluster (Minikube / Kind / GKE / EKS / AKS)
-
 📦 kubectl CLI installed and configured
-
 🌐 (Optional) Ingress Controller (like NGINX) installed in your cluster
+----
 
+----
 🚀 Deployment Steps
 
 1️⃣ Create Namespace
@@ -64,50 +64,54 @@ Copy the external IP/Port and open in your browser.
 If using Ingress:
 Add your domain to /etc/hosts and access via:
 http://chatapp.local
+----
 
+----
 🎯 Features
 
 ✅ Fullstack ChatApp (Frontend + Backend + MongoDB)
-
 ✅ Kubernetes Deployments, Services, Secrets, PV, PVC, Ingress
-
 ✅ Persistent storage for MongoDB
-
 ✅ Custom domain support with Ingress
-
 ✅ Scalable & cloud-ready architecture
-
 🖼️ Project Architecture
 [ Client ] ⇄ [ Ingress Controller ] ⇄ [ Frontend Service ] ⇄ [ Backend Service ] ⇄ [ MongoDB Service (with PV/PVC) ]
+----
 
+----
 📖 Learnings
 
-How to deploy multi-tier applications on Kubernetes
+1: How to deploy multi-tier applications on Kubernetes
+2: Using Secrets for sensitive data
+3: Setting up Persistent Volumes & PVCs for databases
+4: Configuring Ingress for custom domain access
+5: Scaling and managing microservices in Kubernetes
+----
 
-Using Secrets for sensitive data
-
-Setting up Persistent Volumes & PVCs for databases
-
-Configuring Ingress for custom domain access
-
-Scaling and managing microservices in Kubernetes
-
+----
 ### Kubernetes Resources
 - Pods running in the `chat-app` namespace: 
   ![alt text](<screenshots/Screenshot 2025-08-31 190406.png>)
 
+
 - Services exposed:
   ![alt text](<screenshots/Screenshot 2025-08-31 190423.png>)
 
+
 - Ingress configured for external access:
   ![alt text](<screenshots/Screenshot 2025-08-31 191906.png>)
+----
 
+----
 ### Application Access
 - ChatApp running in the browser through Kubernetes Ingress:
 ![alt text](<screenshots/Screenshot 2025-08-31 184954.png>)
 
+
 ![alt text](<screenshots/Screenshot 2025-08-31 173133.png>)
 
+
 ![alt text](<screenshots/Screenshot 2025-08-31 173328.png>)
+----
 
 👩‍💻 Author: [Harshita Goel]
