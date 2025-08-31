@@ -23,8 +23,11 @@ k8s/
 Before deploying, ensure you have:
 
 🐳 Docker (for building images)
+
 ☸️ Kubernetes Cluster (Minikube / Kind / GKE / EKS / AKS)
+
 📦 kubectl CLI installed and configured
+
 🌐 (Optional) Ingress Controller (like NGINX) installed in your cluster
 ----
 
