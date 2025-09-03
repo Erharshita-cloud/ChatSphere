@@ -30,21 +30,23 @@ A **Fullstack Chat Application** deployed on **Kubernetes**, featuring a React f
 
 
 ⚡ Prerequisites
-Before deploying, ensure you have:
 
-🐳 Docker (for building images)
+   Before deploying, ensure you have:
 
-☸️ Kubernetes Cluster (Minikube / Kind / GKE / EKS / AKS)
+    🐳 Docker (for building images)
 
-📦 kubectl CLI installed and configured
+    ☸️ Kubernetes Cluster (Minikube / Kind / GKE / EKS / AKS)
 
-🌐 (Optional) Ingress Controller (e.g., NGINX)
+    📦 kubectl CLI installed and configured
+
+    🌐 (Optional) Ingress Controller (e.g., NGINX)
 
 ----
 
 
 
 🚀 Deployment Steps
+
 ✅ 1. Create Namespace
     kubectl apply -f namespace.yml
 
@@ -97,17 +99,22 @@ graph TD;
 
 
 📸 Screenshots
+
 Pods Running in chat-app Namespace
 
-k8s/screenshots/Screenshot 2025-08-31 190406.png
+![Pods Screenshot](screenshots/Screenshot-2025-08-31-190406.png)
 
 Services Exposed
 
-k8s/screenshots/Screenshot 2025-08-31 190423.png
+![Services Screenshot](screenshots/Screenshot-2025-08-31-190423.png)
 
 Application Access via Ingress
 
-k8s/screenshots/Screenshot 2025-08-31 191906.png
+![Ingress Screenshot](screenshots/Screenshot-2025-08-31-191906.png)
+
+ChatApp Running in Browser
+
+![ChatApp UI](screenshots/Screenshot-2025-08-31-184954.png)
 
 ----
 
