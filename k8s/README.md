@@ -1,4 +1,4 @@
- 🚀 Kubernetes Deployment for ChatApp
+🚀 **Kubernetes Deployment for ChatApp**
 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-Deployment-blue?logo=kubernetes)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-green?logo=mongodb)
@@ -28,8 +28,7 @@ A **Fullstack Chat Application** deployed on **Kubernetes**, featuring a React f
 ----
 
 
-
-⚡ Prerequisites
+⚡ **Prerequisites**
 
    Before deploying, ensure you have:
 
@@ -45,7 +44,7 @@ A **Fullstack Chat Application** deployed on **Kubernetes**, featuring a React f
 
 
 
-🚀 Deployment Steps
+🚀 **Deployment Steps**
 
 ✅ 1. Create Namespace
     kubectl apply -f namespace.yml
@@ -71,7 +70,7 @@ A **Fullstack Chat Application** deployed on **Kubernetes**, featuring a React f
     kubectl apply -f chatapp-ingress.yml
 
 
-🌍 Accessing the Application
+🌍 **Accessing the Application**
 
 If using NodePort / LoadBalancer:
    kubectl get svc -n chat-app
@@ -86,7 +85,7 @@ If using Ingress:
 ----
 
 
-🖼️ Architecture
+🖼️ **Architecture**
 
 graph TD;
     Client --> IngressController
@@ -98,7 +97,7 @@ graph TD;
 ----
 
 
-🎯 Features
+🎯 **Features**
    
    ✅ Fullstack ChatApp (Frontend + Backend + MongoDB)
 
@@ -113,7 +112,7 @@ graph TD;
 ----
 
 
-📖 Learnings
+📖 **Learnings**
 
    🔐 Using Secrets for sensitive data
 
@@ -128,7 +127,7 @@ graph TD;
 ----
 
 
-🚧 Future Enhancements
+🚧 **Future Enhancements**
    
    Add CI/CD pipeline with GitHub Actions
 
@@ -140,5 +139,5 @@ graph TD;
 
 ----
 
-👩‍💻 Author
+👩‍💻 **Author**
 Harshita Goel | https://github.com/Erharshita-cloud
