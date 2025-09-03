@@ -10,6 +10,7 @@ A **Fullstack Chat Application** deployed on **Kubernetes**, featuring a React f
 
 ----
 
+
 ----
 ## 📂 Folder Structure
 
@@ -26,6 +27,8 @@ A **Fullstack Chat Application** deployed on **Kubernetes**, featuring a React f
 ├── mongodb-service.yml          # MongoDB Service
 ├── namespace.yml                # Namespace Definition
 ├── secrets.yml                  # Secrets (e.g., DB credentials)
+
+----
 
 ----
 ⚡ Prerequisites
@@ -101,15 +104,19 @@ graph TD;
 
 Pods Running in chat-app Namespace
 
-![alt text](<screenshots/Screenshot 2025-08-31 190406.png>)
+C:\Users\harsh\kubernetes-in-one-shot\Projects\full-stack_chatApp\k8s\screenshots\Screenshot 2025-08-31 190406.png
 
 Services Exposed
 
-![alt text](<screenshots/Screenshot 2025-08-31 190423.png>)
+C:\Users\harsh\kubernetes-in-one-shot\Projects\full-stack_chatApp\k8s\screenshots\Screenshot 2025-08-31 190423.png
 
 Application Access via Ingress
 
-![alt text](<screenshots/Screenshot 2025-08-31 191906.png>)
+C:\Users\harsh\kubernetes-in-one-shot\Projects\full-stack_chatApp\k8s\screenshots\Screenshot 2025-08-31 191906.png
+
+ChatApp Running in Browser
+
+C:\Users\harsh\kubernetes-in-one-shot\Projects\full-stack_chatApp\k8s\screenshots\Screenshot 2025-08-31 184954.png
 
 ----
 
