@@ -102,19 +102,19 @@ graph TD;
 
 Pods Running in chat-app Namespace
 
-![Pods Screenshot](screenshots/Screenshot-2025-08-31-190406.png)
+![Pods Screenshot](k8s\screenshots\Screenshot 2025_08_31 190406.png)
 
 Services Exposed
 
-![Services Screenshot](screenshots/Screenshot-2025-08-31-190423.png)
+![Services Screenshot](k8s\screenshots\Screenshot 2025_08_31 190423.png)
 
 Application Access via Ingress
 
-![Ingress Screenshot](screenshots/Screenshot-2025-08-31-191906.png)
+![Ingress Screenshot](k8s\screenshots\Screenshot 2025_08_31 191906.png)
 
 ChatApp Running in Browser
 
-![ChatApp UI](screenshots/Screenshot-2025-08-31-184954.png)
+![ChatApp UI](k8s\screenshots\Screenshot 2025_08_31 184954.png)
 
 ----
 
