@@ -98,27 +98,6 @@ graph TD;
 ----
 
 
-📸 Screenshots
-
-Pods Running in chat-app Namespace
-
-![Pods Screenshot](k8s/screenshots/Screenshot_2025_08_31_190406.png)
-
-Services Exposed
-
-![Services Screenshot](k8s/screenshots/Screenshot_2025_08_31_190423.png)
-
-Application Access via Ingress
-
-![Ingress Screenshot](k8s/screenshots/Screenshot_2025_08_31_191906.png)
-
-ChatApp Running in Browser
-
-![ChatApp UI](k8s/screenshots/Screenshot_2025_08_31_184954.png)
-
-----
-
-
 🎯 Features
    
    ✅ Fullstack ChatApp (Frontend + Backend + MongoDB)
